@@ -1,0 +1,24 @@
+{
+  "1336240217480495125": [
+    {
+      "id": "e1b62681-5061-4b53-b784-63eeac454739",
+      "guildId": "1336240217480495125",
+      "channelId": "1365314817165885581",
+      "messageId": "1390261233642508353",
+      "prize": "Discord Nitro",
+      "endTime": 1751534566809,
+      "requirements": {
+        "minInvites": 1,
+        "noAlts": true
+      },
+      "entries": [
+        {
+          "userId": "949315754614992956",
+          "joinedAt": 1751534512362
+        }
+      ],
+      "winnerIds": [],
+      "ended": false
+    }
+  ]
+}

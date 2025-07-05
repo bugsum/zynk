@@ -1,0 +1,48 @@
+{
+    "name": "ochako",
+    "version": "0.0.1-beta",
+    "description": "First multi-purpose community maintained AI Based Discord Bot!",
+    "main": "dist/index.js",
+    "scripts": {
+        "start": "node .",
+        "dev": "ts-node src/index.ts",
+        "deploy": "ts-node src/scripts/deploy.ts",
+        "build": "tsc",
+        "lint": "eslint 'src/**/*.ts'",
+        "fix": "eslint 'src/**/*.ts' --fix"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/bugsum/Ochako.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/bugsum/Ochako/issues"
+    },
+    "homepage": "https://github.com/bugsum/Ochako#readme",
+    "dependencies": {
+        "discord.js": "^14.18.0",
+        "dotenv": "^16.4.7",
+        "express": "^4.21.2",
+        "uuid": "^11.1.0",
+        "winston": "^3.17.0",
+        "yaml": "^2.7.0"
+    },
+    "devDependencies": {
+        "@eslint/js": "^9.21.0",
+        "@types/uuid": "^10.0.0",
+        "@typescript-eslint/eslint-plugin": "^8.24.1",
+        "@typescript-eslint/parser": "^8.24.1",
+        "eslint": "^9.21.0",
+        "eslint-config-prettier": "^10.0.1",
+        "eslint-plugin-prettier": "^5.2.3",
+        "globals": "^16.0.0",
+        "nodemon": "^3.1.9",
+        "prettier": "^3.5.2",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.7.3",
+        "typescript-eslint": "^8.24.1"
+    }
+}

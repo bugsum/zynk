@@ -1,0 +1,2 @@
+# A boolean value to toggle the debugger mode. (All the logger.debug methods become active.)
+debug: false

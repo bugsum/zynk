@@ -1,0 +1,39 @@
+{
+  "1336240217480495125": {
+    "features": {
+      "welcome": {
+        "enabled": true,
+        "channelId": "1375449886098722866",
+        "message": "Welcome {user} to {guild}! Thanks for joining mate <3. Have fun!"
+      },
+      "moderation": {
+        "enabled": true,
+        "defaultTimeout": 600,
+        "escalationPolicy": [
+          {
+            "action": "warn"
+          },
+          {
+            "action": "mute",
+            "duration": 600
+          },
+          {
+            "action": "kick"
+          },
+          {
+            "action": "ban"
+          }
+        ]
+      },
+      "logging": {
+        "enabled": true,
+        "channelId": null,
+        "logJoins": true,
+        "logInfractions": true
+      }
+    },
+    "customCommands": {
+      "ip": "This was changed"
+    }
+  }
+}
