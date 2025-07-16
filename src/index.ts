@@ -15,3 +15,7 @@ client.login(process.env.TOKEN);
 client.on(Events.ClientReady, (client) => {
     console.log('Logged in as: ' + client.user.username);
 });
+
+client.on(Events.Debug, (message) => {
+    console.log(message);
+});
